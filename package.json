@@ -1,0 +1,23 @@
+{
+  "name": "blog-v2",
+  "version": "1.0.0",
+  "description": "博客2.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sansui-orz/blog-v2.git"
+  },
+  "keywords": [
+    "blog-oss"
+  ],
+  "author": "Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sansui-orz/blog-v2/issues"
+  },
+  "homepage": "https://github.com/sansui-orz/blog-v2#readme",
+  "devDependencies": {
+    "blog-oss": "^0.0.3"
+  }
+}
