@@ -1,3 +1,4 @@
 /configs/config.private.js
 /temp
 node_modules
+yarn-error.log
