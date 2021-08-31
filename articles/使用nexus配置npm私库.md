@@ -23,7 +23,7 @@ docker run -d --name nexus3 --restart=always -p 8081:8081 -p 5000:5000 -v C:\pri
 
 容器跑起来之后打开<http://127.0.0.1:8081/#browse/welcome>, 此时可以看到nexus的界面就说明服务启动成功了。
 
-![图片](./images/KnockPic_20210811144904.png)
+![图片](../images/KnockPic_20210811144904.png)
 
 ## nexus上配置npm私库
 
@@ -33,19 +33,19 @@ docker run -d --name nexus3 --restart=always -p 8081:8081 -p 5000:5000 -v C:\pri
 
 登录进去之后，我们点击左上角的齿轮icon -> Repository -> Repositories:
 
-![图片](./images/KnockPic_20210811145805.png)
+![图片](../images/KnockPic_20210811145805.png)
 
 然后点击Create repository，先选择新建一个npm hosted
 
-![npm-hosted](./images/KnockPic_20210811170347.png)
+![npm-hosted](../images/KnockPic_20210811170347.png)
 
 填写name和把deployment policy悬赏Allow redeploy，这是控制是否允许部署和更新。
 
-![npm-hosted](./images/KnockPic_20210811170509.png)
+![npm-hosted](../images/KnockPic_20210811170509.png)
 
 点击提交，然后回到列表我们再创建一个npm(proxy):
 
-![npm-proxy](./images/KnockPic_20210811170739.png)
+![npm-proxy](../images/KnockPic_20210811170739.png)
 
 这里我们填上name和remote storage就好了。注意remote storage是当你的私库没有对应的依赖时去哪里安装的地址，我们一般填它的实例，也就是npm的地址就好了，如果你嫌npm太慢也可以选择填淘宝的镜像源<https://registry.npm.taobao.org>
 
@@ -53,7 +53,7 @@ docker run -d --name nexus3 --restart=always -p 8081:8081 -p 5000:5000 -v C:\pri
 
 再次回到列表我们创建一个npm(group):
 
-![npm-group](./images/KnockPic_20210811171127.png)
+![npm-group](../images/KnockPic_20210811171127.png)
 
 这里把name填上，然后在下面把刚刚新建的hosted和proxy都选到右边，然后提交就好了
 
@@ -64,6 +64,18 @@ docker run -d --name nexus3 --restart=always -p 8081:8081 -p 5000:5000 -v C:\pri
 怎么使用私库其实也非常的简单，回到我们的仓库列表，如果你是通过上面的命令在本机上开启的服务的话，那么请打开<http://127.0.0.1:8081/#admin/repository/repositories>
 
 找到我们刚刚新建的`npm3-group`，点击它右边的copy按钮，将仓库地址copy下来。
+
+### 只拉取依赖
+
+如果平时不发布私库依赖，仅拉取的话，只需要在项目根目录下增加`.npmrc`文件，并添加以下内容即可:
+
+```sh
+registry = http://127.0.0.1:8081/repository/npm3-group/
+```
+
+注意将上面的私库地址换成你自己的私库地址
+
+### 全局安装
 
 然后我们可以通过cnpm去全局配置另一个npm命令, 所以我们得先安装cnpm。如何安装cnpm就跳过了，百度一下你就知道。
 
@@ -136,11 +148,11 @@ npm3 adduser -registry http://127.0.0.1:8081/repository/npm3-host/
 
 这里是没有配置realm的规则，打开nexus上的Security -> Realms，将npm Bearer Token Realm选上。
 
-![realm](./images/KnockPic_20210812103445.png)
+![realm](../images/KnockPic_20210812103445.png)
 
 然后`npm3 publish`就可以了，到这里应该就成功将你的npm包发布到你的私库了.
 
-![npm-test](./images/KnockPic_20210812103716.png)
+![npm-test](../images/KnockPic_20210812103716.png)
 
 可以看到我本地的尝试已经正常上传包了。🐂的不行。
 
