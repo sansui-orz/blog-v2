@@ -246,10 +246,10 @@
     "inherits" "^2.0.4"
     "readable-stream" "^3.4.0"
 
-"blog-oss@^0.0.5":
-  "integrity" "sha512-Qv6i0cgdeRzCQzAAcG04bBMIdxf51yHJnusCXU1PbNYs5PaOo9T0W7pkKVuzsEG+Pbg9MEqLvZt0qdrpkGI4HQ=="
-  "resolved" "https://registry.npmjs.org/blog-oss/-/blog-oss-0.0.5.tgz"
-  "version" "0.0.5"
+"blog-oss@^0.0.6":
+  "integrity" "sha512-WpYMJoKnnzDPGAD9l43KWPIYBPsFWJO5Qi/yyfiaxPEgJ0NM5PEecUeZE+KCV+gI0yyITfocbehDy9otyPrF3g=="
+  "resolved" "https://registry.npmjs.org/blog-oss/-/blog-oss-0.0.6.tgz"
+  "version" "0.0.6"
   dependencies:
     "@octokit/core" "^3.5.1"
     "ali-oss" "^6.15.2"
