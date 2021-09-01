@@ -159,5 +159,3 @@ npm3 adduser -registry http://127.0.0.1:8081/repository/npm3-host/
 拥有私库是每一个有追求的公司的基本条件，只有在拥有私库的情况下才能更好的做沉淀，做工程化，提高开发效率。
 
 The end.
-
-
