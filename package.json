@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/sansui-orz/blog-v2#readme",
   "devDependencies": {
-    "blog-oss": "^0.0.9"
+    "blog-oss": "^0.0.10"
   }
 }
