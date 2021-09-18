@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "博客2.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "npx blog-oss build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sansui-orz/blog-v2.git"
