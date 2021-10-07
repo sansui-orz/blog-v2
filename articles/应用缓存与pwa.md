@@ -127,7 +127,7 @@ function notice() {
 }
 ```
 
-具体代码可以查看[notificate-demo](../demos/notice-push/notice.html), 或者查看[效果](https://sansui-orz.github.io/blog/demos/notice-push/notice.html)
+具体代码可以查看[notificate-demo](https://github.com/sansui-orz/blog/tree/master/demos/notice-push/notice.html), 或者查看[效果](https://sansui-orz.github.io/blog/demos/notice-push/notice.html)
 
 ## 推送
 

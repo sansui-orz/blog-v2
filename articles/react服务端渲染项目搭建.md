@@ -3,7 +3,7 @@
 [tag]:react|ssr|node
 [create]:2020-07-17
 
-[代码](../demos/react-ssr)
+[代码](https://github.com/sansui-orz/blog/tree/master/demos/react-ssr)
 
 ## 技术栈
 

@@ -3,7 +3,7 @@
 [tag]:jest|enzyme|react|单元测试
 [create]:2020-07-14
 
-[代码](../demos/jest-react)
+[代码](https://github.com/sansui-orz/blog/tree/master/demos/jest-react)
 
 ## 环境搭建
 

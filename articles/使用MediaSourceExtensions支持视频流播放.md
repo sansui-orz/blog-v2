@@ -153,7 +153,7 @@ stream.pipe(res);
 
 上面的数据获取以及数据插入的逻辑稍微复杂一丢丢，可以参照下面的流程图理解:
 
-![流程图1](../demos/video-live/mse/lct.drawio.png)
+![流程图1](../images/lct.drawio.png)
 
 需要注意在代码中获取到视频数据并不是直接将数据添加到sourceBuffer的，而是简单的维护了一个缓存数组，在使用一个定时器去循环查询sourceBuffer的状态是否是updateing的状态，这是因为如果网络很流畅的情况下，fetch的回调会短时间内大量触发，而sourceBuffer一次只能处理一段视频数据，所以其他的数据则需要等待前面的数据处理完毕之后才能够添加给sourceBuffer。
 

@@ -5,7 +5,7 @@
 
 ![效果](https://lms-flies.oss-cn-guangzhou.aliyuncs.com/blog/imgs/20200805151032.jpg!trans_webp)
 
-[源码](../demos/loading.html)
+[源码](https://github.com/sansui-orz/blog/tree/master/demos/loading.html)
 
 代码:
 

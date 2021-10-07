@@ -45,7 +45,7 @@
 
 效果如下：
 
-![效果](.https://lms-flies.oss-cn-guangzhou.aliyuncs.com/blog/imgs/20200701102320.jpg!trans_webp)
+![效果](https://lms-flies.oss-cn-guangzhou.aliyuncs.com/blog/imgs/20200701102320.jpg!trans_webp)
 
 从这里看上去一切正常，但是如果给`.box1`加上一个背景，问题就出来了
 
@@ -56,7 +56,7 @@
 ```
 
 效果2：
-![效果2](.https://lms-flies.oss-cn-guangzhou.aliyuncs.com/blog/imgs/20200701102606.jpg!trans_webp)
+![效果2](https://lms-flies.oss-cn-guangzhou.aliyuncs.com/blog/imgs/20200701102606.jpg!trans_webp)
 
 可以看到`.box1`的宽度只有一个子元素的宽度。这是一个浏览器的bug，当使用`flex-direction:column;`时，父元素只会获得一个子元素的高度，即使使用了`flex-warp:warp`进行换行也是这样。
 
