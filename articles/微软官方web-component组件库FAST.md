@@ -3,7 +3,7 @@
 [tag]:web component|FAST
 [create]:2020-09-15
 
-由于之前熟悉了一下[web component](./欢迎web-component到来.md)，所以对于它比较感兴趣，甚至内心还有个“是否可以自己基于web component写一个前端库“的冲动。当然，碍于技术以及惰性，我觉得我是不会动手的。不过最近发现了一个web component的库，所以就去研究了一下。
+由于之前熟悉了一下[web component](https://limaosheng.top/article/37093fae9ae37ca3a4377b767209e640-bc1e881aee7bb83d4f68fa9fefd0225a-1.html)，所以对于它比较感兴趣，甚至内心还有个“是否可以自己基于web component写一个前端库“的冲动。当然，碍于技术以及惰性，我觉得我是不会动手的。不过最近发现了一个web component的库，所以就去研究了一下。
 
 FAST是基于Web组件和现代Web标准构建的技术集合。其主要包含，`@fluentui/web-components`，`@microsoft/fast-components`，`@microsoft/fast-foundation`与`@microsoft/fast-element`。
 
