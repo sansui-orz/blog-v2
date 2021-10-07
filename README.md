@@ -4,6 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至OSS。
 
+- [记写一个自动发布脚本](./articles/记写一个自动发布脚本.md)
 - [window和macOs换行符的区别](./articles/window和macOs换行符的区别.md)
 - [往工程化小小迈出一步](./articles/往工程化小小迈出一步.md)
 - [使用nexus配置npm私库](./articles/使用nexus配置npm私库.md)
