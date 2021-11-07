@@ -2,8 +2,9 @@
 
 个人博客2.0版。
 
-集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至OSS。
+集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
+- [微前端的应用](./articles/微前端的应用.md)
 - [记写一个自动发布脚本](./articles/记写一个自动发布脚本.md)
 - [window和macOs换行符的区别](./articles/window和macOs换行符的区别.md)
 - [往工程化小小迈出一步](./articles/往工程化小小迈出一步.md)
