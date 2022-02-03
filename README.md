@@ -4,6 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
+- [2021年终总结](./articles/2021年终总结.md)
 - [微前端的应用](./articles/微前端的应用.md)
 - [记写一个自动发布脚本](./articles/记写一个自动发布脚本.md)
 - [window和macOs换行符的区别](./articles/window和macOs换行符的区别.md)
