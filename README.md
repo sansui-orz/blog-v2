@@ -4,6 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
+- [一个程序员的职业素养](./articles/一个程序员的职业素养.md)
 - [推荐两个实用工具](./articles/推荐两个实用工具.md)
 - [撸了一个b站视频下载命令行工具](./articles/撸了一个b站视频下载命令行工具.md)
 - [置身事内-中国政府与经济发展](./articles/置身事内-中国政府与经济发展.md)
