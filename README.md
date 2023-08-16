@@ -4,6 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
+- [React组件渲染两次](./articles/React组件渲染两次.md)
 - [一个程序员的职业素养](./articles/一个程序员的职业素养.md)
 - [推荐两个实用工具](./articles/推荐两个实用工具.md)
 - [撸了一个b站视频下载命令行工具](./articles/撸了一个b站视频下载命令行工具.md)
