@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sansui-orz/blog-v2/issues"
   },
-  "homepage": "https://github.com/sansui-orz/blog-v2#readme"
+  "homepage": "https://github.com/sansui-orz/blog-v2#readme",
+  "dependencies": {
+    "blog-oss": "0.0.13"
+  }
 }
