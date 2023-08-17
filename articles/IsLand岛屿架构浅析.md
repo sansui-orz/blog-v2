@@ -1,7 +1,9 @@
-# IsLand-岛屿架构浅析
+# IsLand岛屿架构浅析
 
 [tag]:IsLand|Astro|岛屿架构
-[create]:2022-12-14
+[create]:2022-12-13
+
+![岛屿](../images/island.png)
 
 岛屿架构(IsLands Architecture)由Etsy前端架构工程师Katie Sylor-Miller于2019年首次提出，并由Preact的作者Jason Miller在[这篇文章](https://jasonformat.com/islands-architecture/)进行了扩展。
 

@@ -6,7 +6,7 @@
 
 - [一个useReducer使用示例](./articles/一个useReducer使用示例.md)
 - [老生常谈-useState的同步异步问题](./articles/老生常谈-useState的同步异步问题.md)
-- [IsLand-岛屿架构浅析](./articles/IsLand-岛屿架构浅析.md)
+- [IsLand岛屿架构浅析](./articles/IsLand岛屿架构浅析.md)
 - [React组件渲染两次](./articles/React组件渲染两次.md)
 - [一个程序员的职业素养](./articles/一个程序员的职业素养.md)
 - [推荐两个实用工具](./articles/推荐两个实用工具.md)
