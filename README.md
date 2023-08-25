@@ -4,6 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
+- [《Vue.js设计与实现》- Diff原理与对比](./articles/《Vue.js设计与实现》- Diff原理与对比.md)
 - [一个useReducer使用示例](./articles/一个useReducer使用示例.md)
 - [老生常谈-useState的同步异步问题](./articles/老生常谈-useState的同步异步问题.md)
 - [IsLand岛屿架构浅析](./articles/IsLand岛屿架构浅析.md)
