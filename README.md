@@ -5,7 +5,6 @@
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
 - [《Vue.js设计与实现》- Diff原理与对比](./articles/《Vue.js设计与实现》- Diff原理与对比.md)
-- [一个useReducer使用示例](./articles/一个useReducer使用示例.md)
 - [老生常谈-useState的同步异步问题](./articles/老生常谈-useState的同步异步问题.md)
 - [IsLand岛屿架构浅析](./articles/IsLand岛屿架构浅析.md)
 - [React组件渲染两次](./articles/React组件渲染两次.md)
@@ -13,6 +12,8 @@
 - [推荐两个实用工具](./articles/推荐两个实用工具.md)
 - [撸了一个b站视频下载命令行工具](./articles/撸了一个b站视频下载命令行工具.md)
 - [置身事内-中国政府与经济发展](./articles/置身事内-中国政府与经济发展.md)
+- [成为前端组长的一些思考](./articles/成为前端组长的一些思考.md)
+- [浅谈web安全](./articles/浅谈web安全.md)
 - [前端模板仓库](./articles/前端模板仓库.md)
 - [2021年终总结](./articles/2021年终总结.md)
 - [微前端的应用](./articles/微前端的应用.md)
