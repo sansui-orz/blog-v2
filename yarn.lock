@@ -2,18 +2,18 @@
 # yarn lockfile v1
 
 
-"blog-oss@file:../owner/blog-oss":
-  "resolved" "file:../owner/blog-oss"
-  "version" "0.0.14"
+"blog-oss@file:../blog-oss":
+  version "0.0.13"
+  resolved "file:../blog-oss"
   dependencies:
     "@octokit/core" "^3.5.1"
-    "ali-oss" "^6.15.2"
-    "chalk" "^4.1.1"
-    "cheerio" "^1.0.0-rc.10"
-    "clear" "^0.1.0"
-    "commander" "^8.0.0"
-    "ejs" "^3.1.6"
-    "figlet" "^1.5.0"
-    "inquirer" "^8.1.1"
-    "lodash" "^4.17.21"
-    "markdown-into-html" "^1.0.3"
+    ali-oss "^6.15.2"
+    chalk "^4.1.1"
+    cheerio "^1.0.0-rc.10"
+    clear "^0.1.0"
+    commander "^8.0.0"
+    ejs "^3.1.6"
+    figlet "^1.5.0"
+    inquirer "^8.1.1"
+    lodash "^4.17.21"
+    markdown-into-html "^1.0.3"
