@@ -4,7 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
-- [《Vue.js设计与实现》- Diff原理与对比](./articles/《Vue.js设计与实现》- Diff原理与对比.md)
+- [Vue3的Diff实现](./articles/Vue3的Diff实现.md)
 - [大文件上传？断点续传？](./articles/大文件上传？断点续传？.md)
 - [老生常谈-useState的同步异步问题](./articles/老生常谈-useState的同步异步问题.md)
 - [IsLand岛屿架构浅析](./articles/IsLand岛屿架构浅析.md)

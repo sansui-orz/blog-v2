@@ -1,6 +1,6 @@
-# 《Vue.js设计与实现》- Diff原理与对比
+# Vue3的Diff实现
 
-[tag]:学习|Vue.js|读书
+[tag]:Diff|Vue2|Vue3
 [create]:2023-08-25
 
 ![Vue](../images/vue3.png)
@@ -15,7 +15,7 @@ Vue3在Diff算法上对比Vue2采用了另外一套算法。这里主要对Vue2�
 
 ## 双端Diff算法
 
-Vue2采用的是双端Diff算法。至于为什么要采用这种算法，就得先说明一番一般的Diff算法是怎样的，而双端Diff算法对比其又有什么优点。
+Vue2采用的是双端Diff算法。至于为什么要采用这种算法，就得先说明一下一般的Diff算法是怎样的，而双端Diff算法对比其又有什么优点。
 
 ### 简单Diff算法
 
