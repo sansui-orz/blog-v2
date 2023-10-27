@@ -4,6 +4,9 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
+博客主页👉🏻: [前端与我](https://limaosheng.top/)
+
+- [从设计模式开始](./articles/从设计模式开始.md)
 - [微前端方案横向对比](./articles/微前端方案横向对比.md)
 - [Vue3的Diff实现](./articles/Vue3的Diff实现.md)
 - [大文件上传？断点续传？](./articles/大文件上传？断点续传？.md)
