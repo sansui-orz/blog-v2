@@ -4,7 +4,7 @@
 
 集成了底层cli工具[blog-oss](https://github.com/sansui-orz/blog-oss)，一键发布至阿里云OSS。
 
-博客主页👉🏻: [前端与我](https://limaosheng.top/)
+博客主页👉🏻: [前端于我](https://limaosheng.top/)
 
 - [从设计模式开始](./articles/从设计模式开始.md)
 - [微前端方案横向对比](./articles/微前端方案横向对比.md)
