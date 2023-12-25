@@ -3,7 +3,7 @@
 
 
 "blog-oss@file:../blog-oss":
-  version "0.0.14"
+  version "0.0.16"
   resolved "file:../blog-oss"
   dependencies:
     "@octokit/core" "^3.5.1"
